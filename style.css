@@ -1,0 +1,78 @@
+body {
+    font-family: 'Anek Devanagari', sans-serif;
+    margin: 0%;
+}
+
+.orange-color {
+    color: orange;
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 10%;
+}
+
+.half-width img {
+    width: 50%;
+}
+
+.flexible-container {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.link-button {
+    background-color: rgb(245, 20, 151);
+    text-decoration: none;
+    font-weight: 200;
+    padding: 16px, 64px;
+    color: white;
+    border-radius: 5px;
+}
+
+#white-color {
+    color: white;
+}
+
+.top-part {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.middle-part {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.experience-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-bottom: 10%;
+}
+
+.experience-item {
+    box-shadow: 10px, 10px, 40px gray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+#ui-ux {
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+#web-dev {
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+footer p {
+    text-align: center;
+}
